@@ -1,4 +1,4 @@
-package com.study.springframework;
+package com.study.springframework.bean;
 
 /**
  * @author fuguangwei

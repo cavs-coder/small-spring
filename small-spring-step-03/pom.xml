@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.study.springframework</groupId>
-	<artifactId>small-spring-step-02</artifactId>
+	<artifactId>small-spring-step-03</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>small-spring-step-02</name>
-	<description>small-spring-step-02</description>
+	<name>small-spring-step-03</name>
+	<description>small-spring-step-03</description>
 	<properties>
 		<java.version>8</java.version>
 	</properties>
