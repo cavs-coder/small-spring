@@ -1,5 +1,6 @@
 package com.study.springframework.support;
 
+import com.study.springframework.BeansException;
 import com.study.springframework.config.BeanDefinition;
 
 /**
@@ -9,7 +10,7 @@ import com.study.springframework.config.BeanDefinition;
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
 
     @Override
-    public Object getBean(String name) {
+    public Object getBean(String name) throws BeansException {
         Object bean = getSingleton(name);
         if (bean != null) {
             return bean;
@@ -19,8 +20,8 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
         return createBean(name, beanDefinition);
     }
 
-    protected abstract Object createBean(String beanName, BeanDefinition beanDefinition);
+    protected abstract Object createBean(String beanName, BeanDefinition beanDefinition) throws BeansException;
 
-    protected abstract BeanDefinition getBeanDefinition(String beanName);
+    protected abstract BeanDefinition getBeanDefinition(String beanName) throws BeansException;
 
 }

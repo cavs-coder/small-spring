@@ -1,8 +1,7 @@
-package com.study.springframework.support;
+package com.study.springframework.factory.support;
 
 import com.study.springframework.BeansException;
-import com.study.springframework.config.BeanDefinition;
-import sun.security.x509.OtherName;
+import com.study.springframework.factory.config.BeanDefinition;
 
 import java.util.HashMap;
 import java.util.Map;
