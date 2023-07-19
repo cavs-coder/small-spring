@@ -1,6 +1,8 @@
 package com.study.springframework;
 
 import com.study.springframework.bean.UserService;
+import com.study.springframework.beans.BeanDefinition;
+import com.study.springframework.beans.BeanFactory;
 import org.junit.jupiter.api.Test;
 
 /**

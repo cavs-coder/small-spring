@@ -1,8 +1,8 @@
 package com.study.springframework;
 
 import com.study.springframework.bean.UserService;
-import com.study.springframework.factory.config.BeanDefinition;
-import com.study.springframework.factory.support.DefaultListableBeanFactory;
+import com.study.springframework.beans.factory.config.BeanDefinition;
+import com.study.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.junit.jupiter.api.Test;
 
 /**
