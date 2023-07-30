@@ -34,12 +34,9 @@ public class ApiTestResourceLoader {
 
     @Test
     public void test_url() throws IOException {
-        Resource resource = resourceLoader.getResource("classpath:important.properties");
+        Resource resource = resourceLoader.getResource("https://github.com/cavs-coder/small-spring/blob/main/small-spring-step-05/src/test/resources/important.properties");
         InputStream inputStream = resource.getInputStream();
         String content = IoUtil.readUtf8(inputStream);
         System.out.println(content);
     }
-
-
-
 }
